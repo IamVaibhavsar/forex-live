@@ -6,7 +6,7 @@ const app = express();
 require('dotenv').config()
 
 const bodyParser = require('body-parser');
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT||9000;
 
 const cryptoroutes = require('./routes/crypto');
 const currencyroutes = require('./routes/currency');
